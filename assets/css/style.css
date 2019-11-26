@@ -1,16 +1,100 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
+
+
+/* -------------------Colours------------------- */
+
+.bg-color-name-title {
+    background-color: #9c9c9c;
+}
+
+.ui-menu-color-home {
+    background-color: #787878;
+}
+    
+.ui-menu-color-services {
+    background-color: #787878;
+} 
+    
+.ui-menu-color-galleries {
+    background-color: #787878;
+}
+    
+.ui-menu-color-contact {
+    background-color: #787878;
+}
+
+/* -------------------Heading------------------- */
 
 header {
     margin: 0;
 }
 
+.heading {
+    margin-left: 50px;
+}
+
 .logo {
-    background: url("./assets/images/drone#1.jpg");
+    background: url("../images/Logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 100px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Dosis", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.description {
+    font-family: "Dosis", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #ffffff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0px;
+}
+
+.menuitem {
+    font-family: Dosis;
+    font-weight: 200;
+    height: 120px;
+    text-align: center;
+    padding: 0px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
